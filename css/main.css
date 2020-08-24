@@ -1,0 +1,39 @@
+.panel:nth-of-type(odd) { 
+    margin: 10px 10px 0 10px;
+    background:#d7f3d8;
+}
+.panel:nth-of-type(even) { 
+    margin: 10px 10px 0 0;
+    background:#f7f5b2;
+}
+.panel {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 230px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid #e3e3e3;
+    float: left;
+    height: 80px;
+}
+.panel-body .icon {
+    width: 50px;
+    height: 50px;
+}
+.panel-body {
+    padding: 10px;
+}
+.tool-image {
+    margin-top: 4px;
+    float: left;
+    width: 52px;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none !important;
+}
+a:hover {
+    color: black;
+    text-decoration: none !important;
+}

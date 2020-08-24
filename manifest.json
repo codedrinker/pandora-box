@@ -1,0 +1,31 @@
+{
+    "name": "潘多拉工具箱",
+    "description": "一个集成神奇工具的地方-工具大全",
+    "version": "1.0.0",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "img/logo.png",
+        "default_title": "潘多拉工具箱",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "manifest_version": 2,
+    "content_scripts": [
+    {
+        "js": [
+            "js/jquery.min.js",
+            "js/popup.js"
+        ],
+        "matches": ["http://*/*", "https://*/*"]
+    }],
+    "icons": {
+        "128": "img/logo.png"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self' ;"
+}
