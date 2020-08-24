@@ -34,5 +34,5 @@ Chrome 插件，一个集成神奇工具的地方
 ]
 ```
 3. 预览如下  
-![](https://static01.imgkr.com/temp/2497ae12e5c948ec855d511905af725c.png)
+![](https://static01.imgkr.com/temp/9191e88504a04d2a9d2f5d7f7ac8f59a.png)
 
