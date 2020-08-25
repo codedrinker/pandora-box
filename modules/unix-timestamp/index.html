@@ -4,8 +4,29 @@
     <meta charset="utf-8"/>
     <title>潘多拉工具箱|时间戳转换工具</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="moment.min.js"></script>
+    <script type="text/javascript" src="unix-timestamp.js"></script>
+    <style type="text/css">
+        .row {
+            margin:20px;
+        }
+        .exchange {
+            padding-top: 5px;
+        }
+    </style>
 </head>
-<body style="width: 490px;height: 280px;">
-    看好了，我就是时间转换工具
+<body style="width: 490px">
+ <div class="row">
+    <div class="form-group">
+    <label for="timestamp">时间戳</label>
+    <input type="text" class="form-control" id="timestamp">
+    <small id="timestamp" class="form-text text-muted">输入时间戳或者日期，实现自动转换</small>
+  </div>
+  <div class="form-group">
+    <label for="date">日期</label>
+    <input type="text" class="form-control" id="date">
+  </div>
+</div>
 </body>
 </html>
