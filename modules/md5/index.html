@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8"/>
+    <title>潘多拉工具箱|时间戳转换工具</title>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+    <script type="text/javascript" src="./md5.js"></script>
+    <script type="text/javascript" src="crypto-js.js"></script>
+    <style type="text/css">
+        .row {
+            margin:20px;
+        }
+        .form-group{
+            display: flex;
+            align-items: center;
+        }
+        button{
+            width: 100px;
+            margin-left: 15px;
+        }
+        span{
+            width: 100px;
+        }
+        #error{
+            display: none;
+        }
+    </style>
+</head>
+<body style="width: 490px">
+ <div class="row">
+     <div class="col-md-12">
+         <div class="alert alert-danger" role="alert" id="error"></div>
+         <div class="form-group">
+             <input type="text" class="form-control" placeholder="请输入要加密的值" id="md5">
+             <button type="button" class="btn btn-primary btn-sm">点击生成</button>
+         </div>
+         <div class="form-group">
+             <span >32位小写</span>
+             <input type="text" class="form-control" id="value">
+         </div>
+         <div class="form-group">
+             <span >32位大写</span>
+             <input type="text" class="form-control" id="value1">
+         </div>
+         <div class="form-group">
+             <span >16位小写</span>
+             <input type="text" class="form-control" id="value2">
+         </div>
+         <div class="form-group">
+             <span >16位大写</span>
+             <input type="text" class="form-control" id="value3">
+         </div>
+     </div>
+
+</div>
+</body>
+</html>

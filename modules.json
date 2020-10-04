@@ -4,5 +4,11 @@
     "desc": "在线时间戳值转换工具",
     "page": "/modules/unix-timestamp/index.html",
     "icon": "/modules/unix-timestamp/icon.png"
+  },
+  {
+    "title": "MD5加密",
+    "desc": "在线MD5加密转换工具",
+    "page": "/modules/md5/index.html",
+    "icon": "/modules/md5/MD5.png"
   }
 ]
